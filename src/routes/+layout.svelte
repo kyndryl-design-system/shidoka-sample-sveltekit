@@ -1,7 +1,5 @@
 <script>
 	// @ts-nocheck
-	export const ssr = false;
-
 	import { onMount } from 'svelte';
 	import '@kyndryl-design-system/shidoka-foundation/scss/root.scss';
 	import '@kyndryl-design-system/shidoka-foundation/scss/utility/typography.scss';
