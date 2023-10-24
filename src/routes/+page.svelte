@@ -1,14 +1,14 @@
 <script>
 	import { onMount } from 'svelte';
 
-	let loaded = false;
+	let mounted = false;
 	onMount(async () => {
 		await import('@kyndryl-design-system/shidoka-charts/components/chart');
-		loaded = true;
+		mounted = true;
 	});
 </script>
 
-{#key loaded}
+{#key mounted}
 	<div class="kd-grid">
 		<div class="kd-grid__col--sm-4 kd-grid__col--md-8 kd-grid__col--lg-12">
 			<h1 class="kd-type--headline-03">Shidoka SvelteKit Sample App</h1>
