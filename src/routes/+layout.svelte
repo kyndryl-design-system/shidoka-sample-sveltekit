@@ -5,7 +5,7 @@
 	import '@kyndryl-design-system/shidoka-foundation/scss/utility/typography.scss';
 	import '@kyndryl-design-system/shidoka-foundation/scss/utility/grid.scss';
 	import '../app.css';
-	import UserAvatar from '@kyndryl-design-system/shidoka-icons/svg/monochrome/20/user.svg?raw';
+	import UserAvatar from '@kyndryl-design-system/shidoka-icons/svg/monochrome/16/user.svg?raw';
 	import CircleStroke from '@kyndryl-design-system/shidoka-icons/svg/monochrome/16/circle-stroke.svg?raw';
 
 	let mounted = false;
@@ -89,8 +89,4 @@
 
 <style lang="scss">
 	@use '@kyndryl-design-system/shidoka-foundation/scss/mixins/typography.scss';
-	.iconStyle {
-		height: 20px;
-		width: 20px;
-	}
 </style>
