@@ -27,9 +27,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@kyndryl-design-system/shidoka-foundation": "^1.0.0-beta.37",
-		"@kyndryl-design-system/shidoka-applications": "^1.0.0-beta.68",
-		"@kyndryl-design-system/shidoka-charts": "^1.0.0-beta.14",
-		"carbon-icons-svelte": "^12.3.0"
+		"@kyndryl-design-system/shidoka-applications": "^2.20.0",
+    	"@kyndryl-design-system/shidoka-charts": "^2.0.2",
+    	"@kyndryl-design-system/shidoka-foundation": "^2.4.3",
+   		"@kyndryl-design-system/shidoka-icons": "^2.4.0"
 	}
 }
